@@ -1,0 +1,59 @@
+	Variáveis
+Int = c
+Flat = 1.5, 22.2. 0.5, 0.001, 1,233
+Number = 1, 3, 56, 23, 10 8, 1.5, 22.2. 0.5, 0.001, 1,233
+Boolean = False, True
+
+
+Converter uma variável Number para String - String(var)
+Converter uma variável String para Number - Number(var)
+
+window.alert('A soma dos números '+num1+' com ' +num2+' é igual '+soma)// Concatenação
+window.alert(`A soma de ${num1} com ${num2} é igual a ${soma}`) // Template string
+
+	AULA 06
+var.length - Mostra quantas letras tem a variável
+var.toUpperCase() - Transforma as letras em maiúsculas
+var.toLowerCase - Transforma as letras em minúsculas
+
+var.toFixed(3) - define quantas casas decimais depois do ponto
+var.toFixed(2).replace('.' ,',') - define quantas casas decimais depois da ponto e substitui o ponto pela vírgula
+var.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})  - Transforma o número no formato de Reais
+
+	AULA 07
+  Operadores aritméticos
+ 	+ adição
+ 	- subtração
+ 	* multiplicação
+ 	/ divisão
+ 	% resto da divisão inteira
+ 	** potência/ elevado
+
+ Ordem de precedência dos operadores
+	() o que estiver dentro dos parenteses
+	** as potências
+	* / %
+	+ -
+
+	AULA 08
+ Operadores relacionais
+	> maior
+	< menor
+	>= maior ou igual
+	<= menor ou igual
+	== igual
+	=== igual valor e tipo
+	!= diferente
+	!== diferente valor e tipo
+
+ Operadores lógicos
+	! negação
+	&& e, conjunção
+	|| ou, disjunção
+
+ Operador ternário
+	?: - (teste)?(true):(false)
+	media>=7 ? 'APROVADO' : 'REPROVADO'
+
+	AULA 09
+ 

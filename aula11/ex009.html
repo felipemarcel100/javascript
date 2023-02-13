@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+            background-color: rgb(234, 234, 234);
+        }
+        div#div1{
+            height: 300px;
+            width: 300px;
+            margin: auto;
+            margin-top: 80px;
+            background-color: white;
+            color: gray;
+            font-size: 1.4em;
+            border-radius: 7px;
+            box-shadow: 0px 5px 25px rgba(108, 108, 173, 0.685);
+            text-align: center;
+            padding: 15px;
+        }
+        div>input{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <p>Em que país você nasceu?</p>
+        <input type="text" name="txt-pais" id="txt-pais">
+        <input type="button" value="Verificar" onclick="verificar()">
+        <div id="div2"></div>
+    </div>
+    <script>
+        var txtp = window.document.querySelector('input#txt-pais')
+        var res = window.document.querySelector('div#div2')
+        function verificar(){
+            if(txtp.value == ('Brasil' || 'brasil')){
+                res.innerHTML = `Você é brasileiro`
+                res.style.margin = '50px'
+                res.style.fontSize = '2em'
+            }
+            else{
+                res.innerHTML = `Você não é brasileiro`
+                res.style.margin = '50px'
+                res.style.fontSize = '2em'
+            }
+        }
+    </script>
+</body>
+</html>
