@@ -14,7 +14,11 @@ section{
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 1px 5px 10px gray;
+    box-shadow: 1px 5px 15px gray;
+}
+div {
+    text-align: center;
+    padding: 10px;
 }
 footer{
 color: white;
