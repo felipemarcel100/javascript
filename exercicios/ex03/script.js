@@ -5,33 +5,28 @@ var sec = data.getSeconds()
 var data = document.getElementById('data')
 
 function contar(){
-var tN1 = document.getElementById('txtN1')
-var tN2 = document.getElementById('txtN2')
-var tN3 = document.getElementById('txtN3')
+var tN1 = Number(document.getElementById('txtN1').value)
+var tN2 = Number(document.getElementById('txtN2').value)
+var tN3 = Number(document.getElementById('txtN3').value)
 var res = document.getElementById('res')
 
-if(tN1.value.length == 0 || tN2.value.length == 0 || tN3.value.length == 0){
+if(tN1.length == 0 || tN2.length == 0 || tN3.length == 0){
     window.alert("Preencha todos os campos")
 } else{
-    var inicio = Number(tN1.value)
-    var limite = Number(tN2.value)
-    var passo = Number(tN3.value)
-    var cont = inicio
-
-    //contagem crescente
-    if(inicio < limite){
-        while(cont <= limite){
+    var cont = tN1
+    if(tN1 < tN2){  //contagem crescente
+        while(cont <= tN2){
         res.innerHTML += ` ${cont}`
-        cont += passo
+        cont += tN3
         res.innerHTML += `\u{27A1}`
         }
-    }else {//contagem decrescente
-        while(cont >= limite){
+    }else { //contagem decrescente
+        while(cont >= tN2){
             res.innerHTML += ` ${cont}`
-            cont -= passo
+            cont -= tN3
+            res.innerHTML += `\u{27A1}`
         }
     }
-    
 }
 }
 
