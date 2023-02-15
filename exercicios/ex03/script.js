@@ -16,7 +16,7 @@ if(tN1.length == 0 || tN2.length == 0 || tN3.length == 0){
     var cont = tN1
     if(tN1 < tN2){  //contagem crescente
         while(cont <= tN2){
-        res.innerHTML += ` ${cont}`
+        res.innerHTML += `${cont}`
         cont += tN3
         res.innerHTML += `\u{27A1}`
         }
