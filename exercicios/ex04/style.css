@@ -23,9 +23,27 @@ section{
     border: 1px solid #80ED99;
     border-radius: 7px;
     box-shadow: 2px 6px 10px #226d4c83;
-    padding: 15px;
+    padding: 20px;
+    font-weight: bold;
+}
+div{
+    margin-top: 5px;
+}
+input#mult, input#calc{
+    width: 80px;
+    border-color: #80ED99;
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center;
+}
+div#res{
+    background-color: #C7F9CC;
+    width: 100px;
+    margin: 15px auto;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 25px;
     
-
 }
 footer{
     margin-top: 350px;
