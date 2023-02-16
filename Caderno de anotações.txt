@@ -12,7 +12,7 @@ window.alert('A soma dos números '+num1+' com ' +num2+' é igual '+soma)// Conc
 window.alert(`A soma de ${num1} com ${num2} é igual a ${soma}`) // Template string
 
 	AULA 06
-var.length - Mostra quantas letras tem a variável
+var.length - Mostra quantos elementos tem a variável
 var.toUpperCase() - Transforma as letras em maiúsculas
 var.toLowerCase - Transforma as letras em minúsculas
 
@@ -54,6 +54,15 @@ var.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})  - Transforma 
  Operador ternário
 	?: - (teste)?(true):(false)
 	media>=7 ? 'APROVADO' : 'REPROVADO'
+	
+	Aula 14
+ for(inicialização; teste lógico; incremento){}
+ exemplo - for(let cont = 0; num <= 10; cont++){}
 
-	AULA 09
+	AULA 15
+ let num = [5, 8, 4] - cria uma variável array com 3 elementos
+ num[3] = 6 - cria um novo elemento dentro da variável num na posição(chave) 3 com o valor 6
+ num.push = 7 - cria um novo elemento dentro da variável num na última posição(chave) com o valor 7
+ num.sort() - organiza todos os elementos de forma crescente dentro da variável array
+  
  
