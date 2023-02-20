@@ -62,7 +62,7 @@ var.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})  - Transforma 
 	AULA 15
  let num = [5, 8, 4] - cria uma variável array com 3 elementos
  num[3] = 6 - cria um novo elemento dentro da variável num na posição(chave) 3 com o valor 6
- num.push = 7 - cria um novo elemento dentro da variável num na última posição(chave) com o valor 7
+ num.push(7) - cria um novo elemento dentro da variável num na última posição(chave) com o valor 7
  num.sort() - organiza todos os elementos de forma crescente dentro da variável array
   
  
